@@ -1,0 +1,1274 @@
+{
+  "metadata": {
+    "source": "developer-roadmap (roadmap.sh)",
+    "analysis_date": "2025-11-18",
+    "total_roadmaps": 9,
+    "category": "Frontend & UI Development"
+  },
+  "roadmaps": {
+    "html": {
+      "title": "HTML Roadmap",
+      "url": "https://roadmap.sh/html",
+      "description": "Hypertext Markup Language - the standard markup language for web documents",
+      "total_topics": "120+",
+      "main_learning_paths": [
+        "Web fundamentals understanding",
+        "Semantic HTML mastery",
+        "Form and input handling",
+        "Media and content embedding",
+        "Accessibility and SEO"
+      ],
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "Fundamentals",
+          "topics": [
+            "Basic HTML tags",
+            "Headings (h1-h6)",
+            "Paragraphs and divisions",
+            "Text elements"
+          ]
+        },
+        {
+          "stage": 2,
+          "name": "Structural Elements",
+          "topics": [
+            "Semantic markup (header, footer, nav, main, section, article, aside)",
+            "Lists (ordered, unordered, nested, definition)",
+            "Tables",
+            "Divs and spans"
+          ]
+        },
+        {
+          "stage": 3,
+          "name": "Forms & Input",
+          "topics": [
+            "Form handling and validation",
+            "Labels and input elements",
+            "File uploads"
+          ]
+        },
+        {
+          "stage": 4,
+          "name": "Media & Embedding",
+          "topics": [
+            "Images and figures",
+            "Audio and video elements",
+            "Embedded content (iframes)"
+          ]
+        },
+        {
+          "stage": 5,
+          "name": "Advanced Topics",
+          "topics": [
+            "Accessibility considerations",
+            "SEO and meta tags",
+            "Content Security Policy",
+            "HTML entities and comments",
+            "Data attributes",
+            "JavaScript integration"
+          ]
+        }
+      ],
+      "key_topics": [
+        "Semantic HTML",
+        "Forms and validation",
+        "Media embedding",
+        "Accessibility",
+        "SEO fundamentals",
+        "Content structure",
+        "HTML5 features",
+        "Data attributes",
+        "Microdata and structured data"
+      ],
+      "prerequisites": [
+        "Basic computer literacy",
+        "Understanding of web browsers",
+        "Text editor knowledge"
+      ]
+    },
+    "css": {
+      "title": "CSS Roadmap",
+      "url": "https://roadmap.sh/css",
+      "description": "Cascading Style Sheets - the language for styling and visual presentation of web pages",
+      "total_topics": "102",
+      "main_learning_paths": [
+        "CSS fundamentals and syntax",
+        "Selectors and specificity",
+        "Box model and layout",
+        "Typography and colors",
+        "Advanced styling and effects",
+        "Responsive design"
+      ],
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "CSS Basics",
+          "topics": [
+            "CSS introduction and fundamentals",
+            "CSS declarations and rules",
+            "CSS selectors",
+            "Properties and values",
+            "Comments"
+          ]
+        },
+        {
+          "stage": 2,
+          "name": "Selectors & Cascading",
+          "topics": [
+            "Simple selectors (element, class, ID, universal)",
+            "Combinator selectors (child, descendant, sibling)",
+            "Attribute selectors",
+            "Grouping",
+            "Cascading order"
+          ]
+        },
+        {
+          "stage": 3,
+          "name": "Styling Properties",
+          "topics": [
+            "Text and fonts (family, size, style, weight, color)",
+            "Text styling (alignment, decoration, spacing, transform)",
+            "Background properties",
+            "Borders and outlines"
+          ]
+        },
+        {
+          "stage": 4,
+          "name": "Box Model & Layout",
+          "topics": [
+            "Box model fundamentals",
+            "Display (block, inline, inline-block, flex, grid)",
+            "Position (static, relative, absolute, fixed, sticky)",
+            "Margin, padding, width, height",
+            "Visibility and overflow"
+          ]
+        },
+        {
+          "stage": 5,
+          "name": "Advanced Styling",
+          "topics": [
+            "Colors (named, hex, RGB, HSL)",
+            "Box and text shadows",
+            "Gradients",
+            "Opacity and transforms",
+            "Transitions and animations",
+            "CSS units and functions"
+          ]
+        }
+      ],
+      "key_topics": [
+        "Selectors",
+        "Box model",
+        "Display and positioning",
+        "Typography",
+        "Colors and backgrounds",
+        "Flexbox and Grid",
+        "Responsive design",
+        "Transforms and animations",
+        "CSS variables (custom properties)"
+      ],
+      "prerequisites": [
+        "HTML knowledge (required)",
+        "Understanding of web structure",
+        "Text editor proficiency"
+      ]
+    },
+    "javascript": {
+      "title": "JavaScript Roadmap",
+      "url": "https://roadmap.sh/javascript",
+      "description": "JavaScript - the programming language that adds interactivity and dynamic behavior to web applications",
+      "total_topics": "100+",
+      "main_learning_paths": [
+        "Frontend Development (DOM APIs, interactive UI, REST APIs)",
+        "Backend Development (API design, server-side logic, databases)",
+        "Core JavaScript fundamentals (shared foundation)"
+      ],
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "Fundamentals",
+          "topics": [
+            "Variables and data types (string, number, boolean, object, array)",
+            "Operators (arithmetic, assignment, comparison, logical, bitwise)",
+            "Control flow (if/else, loops, switch statements)"
+          ]
+        },
+        {
+          "stage": 2,
+          "name": "Functions & Scope",
+          "topics": [
+            "Functions and function parameters",
+            "Function declarations vs expressions",
+            "Arrow functions",
+            "Scope and closures",
+            "Hoisting"
+          ]
+        },
+        {
+          "stage": 3,
+          "name": "Object-Oriented Programming",
+          "topics": [
+            "Objects and object methods",
+            "Classes and inheritance",
+            "Prototypes and prototype chains",
+            "Method overriding",
+            "Constructors"
+          ]
+        },
+        {
+          "stage": 4,
+          "name": "Asynchronous Programming",
+          "topics": [
+            "Callbacks and callback hell",
+            "Promises",
+            "Async/await",
+            "Event loop mechanics",
+            "Error handling"
+          ]
+        },
+        {
+          "stage": 5,
+          "name": "Advanced Concepts",
+          "topics": [
+            "Array methods and higher-order functions",
+            "Iterators and generators",
+            "Destructuring",
+            "Spread operator",
+            "Type casting and coercion"
+          ]
+        },
+        {
+          "stage": 6,
+          "name": "Module Systems & APIs",
+          "topics": [
+            "CommonJS and ES modules",
+            "Import/export patterns",
+            "DOM APIs",
+            "JSON parsing",
+            "Fetch API"
+          ]
+        },
+        {
+          "stage": 7,
+          "name": "Framework Specialization",
+          "topics": [
+            "React or Vue or Angular choice",
+            "API integration",
+            "State management",
+            "Component patterns"
+          ]
+        }
+      ],
+      "key_topics": [
+        "Variables and data types",
+        "Functions and scope",
+        "Objects and arrays",
+        "Asynchronous programming",
+        "DOM manipulation",
+        "Event handling",
+        "Closures and hoisting",
+        "Error handling",
+        "Module systems"
+      ],
+      "prerequisites": [
+        "HTML basics (required)",
+        "CSS basics (recommended)",
+        "Logical thinking",
+        "Problem-solving skills"
+      ]
+    },
+    "typescript": {
+      "title": "TypeScript Roadmap",
+      "url": "https://roadmap.sh/typescript",
+      "description": "TypeScript - a typed superset of JavaScript that adds static type checking and enhanced development experience",
+      "total_topics": "102",
+      "main_learning_paths": [
+        "JavaScript foundation to TypeScript migration",
+        "Type system mastery",
+        "Advanced type features",
+        "Framework integration (React, Node.js)"
+      ],
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "TypeScript Basics",
+          "topics": [
+            "Introduction and setup",
+            "Installation and configuration",
+            "Running TypeScript",
+            "TypeScript compiler (tsc)"
+          ]
+        },
+        {
+          "stage": 2,
+          "name": "Basic Types",
+          "topics": [
+            "Primitive types (string, number, boolean)",
+            "Array and tuple types",
+            "Object types",
+            "Any and unknown types",
+            "Null and undefined",
+            "Never type"
+          ]
+        },
+        {
+          "stage": 3,
+          "name": "Advanced Type System",
+          "topics": [
+            "Type aliases and interfaces",
+            "Union and intersection types",
+            "Literal types",
+            "Type inference",
+            "Type compatibility and assignment",
+            "Type guards and narrowing"
+          ]
+        },
+        {
+          "stage": 4,
+          "name": "Generics & Advanced Features",
+          "topics": [
+            "Generics and generic constraints",
+            "Template literal types",
+            "Conditional types",
+            "Mapped types",
+            "Type operators (keyof, typeof, instanceof)",
+            "Type assertions and satisfies"
+          ]
+        },
+        {
+          "stage": 5,
+          "name": "OOP in TypeScript",
+          "topics": [
+            "Classes and abstract classes",
+            "Inheritance and polymorphism",
+            "Access modifiers (public, private, protected)",
+            "Constructors and parameters",
+            "Method overriding"
+          ]
+        },
+        {
+          "stage": 6,
+          "name": "Advanced Features",
+          "topics": [
+            "Decorators",
+            "Enums",
+            "Namespaces and namespace augmentation",
+            "Ambient modules",
+            "Global augmentation",
+            "Utility types (Partial, Pick, Omit, Record, Extract, Exclude, etc.)"
+          ]
+        },
+        {
+          "stage": 7,
+          "name": "Configuration & Tooling",
+          "topics": [
+            "tsconfig.json configuration",
+            "Build tools integration",
+            "Linting and formatting",
+            "ts-node and playground",
+            "JavaScript interoperability"
+          ]
+        }
+      ],
+      "key_topics": [
+        "Type system",
+        "Interfaces and type aliases",
+        "Generics",
+        "Union and intersection types",
+        "Type guards",
+        "Classes and inheritance",
+        "Decorators",
+        "Utility types",
+        "Module system",
+        "Configuration"
+      ],
+      "prerequisites": [
+        "JavaScript proficiency (required)",
+        "Understanding of ES6+ features",
+        "OOP concepts knowledge",
+        "DOM and web APIs"
+      ]
+    },
+    "react": {
+      "title": "React Roadmap",
+      "url": "https://roadmap.sh/react",
+      "description": "React - a JavaScript library for building interactive user interfaces with component-based architecture",
+      "total_topics": "102",
+      "main_learning_paths": [
+        "React core fundamentals",
+        "Component composition and reusability",
+        "State and effect management",
+        "Routing and navigation",
+        "Data fetching and API integration",
+        "Advanced patterns and optimization",
+        "Testing and deployment"
+      ],
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "React Fundamentals",
+          "topics": [
+            "Introduction to React",
+            "Components (functional and class-based)",
+            "JSX syntax",
+            "Props and state",
+            "Event handling"
+          ]
+        },
+        {
+          "stage": 2,
+          "name": "Core Concepts",
+          "topics": [
+            "Rendering and reconciliation",
+            "Component lifecycle (class components)",
+            "Hooks (useState, useEffect, useContext)",
+            "Error boundaries",
+            "Refs and portals"
+          ]
+        },
+        {
+          "stage": 3,
+          "name": "State Management",
+          "topics": [
+            "Context API",
+            "Redux fundamentals",
+            "Zustand, Jotai, MobX",
+            "React Query, SWR, RTK Query",
+            "Store management patterns"
+          ]
+        },
+        {
+          "stage": 4,
+          "name": "Advanced Hooks",
+          "topics": [
+            "useCallback and useMemo optimization",
+            "useReducer for complex state",
+            "Custom hooks",
+            "Composition patterns",
+            "Higher-order components",
+            "Render props"
+          ]
+        },
+        {
+          "stage": 5,
+          "name": "Styling & UI",
+          "topics": [
+            "CSS Modules",
+            "Tailwind CSS",
+            "Styled components",
+            "Component libraries (Material UI, Chakra UI, Radix UI)",
+            "Animation libraries (Framer Motion, React Spring)"
+          ]
+        },
+        {
+          "stage": 6,
+          "name": "Routing & Navigation",
+          "topics": [
+            "React Router",
+            "TanStack Router",
+            "Route guards and lazy loading",
+            "Navigation patterns"
+          ]
+        },
+        {
+          "stage": 7,
+          "name": "Data & APIs",
+          "topics": [
+            "Axios for HTTP requests",
+            "Fetch API",
+            "GraphQL with Apollo and Relay",
+            "Data validation with Zod",
+            "Error handling and loading states"
+          ]
+        },
+        {
+          "stage": 8,
+          "name": "Testing",
+          "topics": [
+            "Jest testing framework",
+            "React Testing Library",
+            "Vitest",
+            "End-to-end testing (Cypress, Playwright)",
+            "Test coverage and best practices"
+          ]
+        },
+        {
+          "stage": 9,
+          "name": "Frameworks & Tools",
+          "topics": [
+            "Next.js for full-stack React",
+            "Astro for static generation",
+            "Vite for build optimization",
+            "React Native for mobile"
+          ]
+        }
+      ],
+      "key_topics": [
+        "Components and JSX",
+        "State and props",
+        "Hooks",
+        "Event handling",
+        "Conditional rendering",
+        "Lists and keys",
+        "Form handling",
+        "Context API",
+        "State management",
+        "Side effects",
+        "Code splitting",
+        "Performance optimization",
+        "Testing"
+      ],
+      "prerequisites": [
+        "JavaScript proficiency (required)",
+        "ES6+ features (required)",
+        "Understanding of DOM and web APIs",
+        "TypeScript (recommended)",
+        "HTML and CSS basics"
+      ]
+    },
+    "vue": {
+      "title": "Vue Roadmap",
+      "url": "https://roadmap.sh/vue",
+      "description": "Vue.js - a progressive JavaScript framework for building user interfaces with reactive data binding",
+      "total_topics": "115",
+      "main_learning_paths": [
+        "Vue fundamentals and templates",
+        "Reactivity and data binding",
+        "Component composition",
+        "State management",
+        "Routing and navigation",
+        "Ecosystem tools and frameworks",
+        "Testing and optimization"
+      ],
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "Vue Fundamentals",
+          "topics": [
+            "Introduction to Vue",
+            "Template syntax",
+            "Data binding (v-bind, v-text, v-html)",
+            "Conditional rendering (v-if, v-else, v-show)",
+            "List rendering (v-for)"
+          ]
+        },
+        {
+          "stage": 2,
+          "name": "Core Concepts",
+          "topics": [
+            "Components and component registration",
+            "Single-file components",
+            "Props and events",
+            "Attribute inheritance",
+            "Event handling and binding",
+            "Event modifiers and key modifiers"
+          ]
+        },
+        {
+          "stage": 3,
+          "name": "Reactive Data & Logic",
+          "topics": [
+            "Reactive data management",
+            "Computed properties",
+            "Lifecycle hooks",
+            "Methods and event handlers",
+            "v-model for two-way binding"
+          ]
+        },
+        {
+          "stage": 4,
+          "name": "Form Handling",
+          "topics": [
+            "Form handling",
+            "Input bindings",
+            "Form validation",
+            "Custom form components"
+          ]
+        },
+        {
+          "stage": 5,
+          "name": "Advanced Patterns",
+          "topics": [
+            "Slots and scoped slots",
+            "Provide/inject pattern",
+            "Teleport components",
+            "Transition and transition-group",
+            "Custom directives",
+            "Directives and modifiers"
+          ]
+        },
+        {
+          "stage": 6,
+          "name": "Composition & APIs",
+          "topics": [
+            "Composition API",
+            "Options API",
+            "Custom hooks and composables",
+            "Ref and reactive",
+            "Watch and watchEffect"
+          ]
+        },
+        {
+          "stage": 7,
+          "name": "State Management",
+          "topics": [
+            "Pinia for state management",
+            "Global state patterns",
+            "Store composition",
+            "Persistence"
+          ]
+        },
+        {
+          "stage": 8,
+          "name": "Routing & Navigation",
+          "topics": [
+            "Vue Router",
+            "Route configuration",
+            "Navigation guards",
+            "Lazy loading routes"
+          ]
+        },
+        {
+          "stage": 9,
+          "name": "Frameworks & SSR",
+          "topics": [
+            "Nuxt.js framework",
+            "Server-side rendering (SSR)",
+            "Static site generation (SSG)",
+            "Create-vue setup"
+          ]
+        },
+        {
+          "stage": 10,
+          "name": "Data & APIs",
+          "topics": [
+            "API calls and data fetching",
+            "Axios and Fetch API",
+            "GraphQL with Apollo",
+            "TanStack Query",
+            "Form validation libraries"
+          ]
+        },
+        {
+          "stage": 11,
+          "name": "Testing",
+          "topics": [
+            "Vitest for unit testing",
+            "Vue Testing Library",
+            "Cypress for E2E testing",
+            "Playwright for E2E testing"
+          ]
+        },
+        {
+          "stage": 12,
+          "name": "UI & Styling",
+          "topics": [
+            "Tailwind CSS",
+            "Component libraries (Vuetify, Element UI, Quasar)",
+            "Styled components",
+            "Panda CSS"
+          ]
+        }
+      ],
+      "key_topics": [
+        "Template syntax",
+        "Directives",
+        "Components",
+        "Props and events",
+        "Data binding",
+        "Computed properties",
+        "Lifecycle hooks",
+        "Composition API",
+        "State management (Pinia)",
+        "Routing (Vue Router)",
+        "Forms and validation",
+        "Testing",
+        "Performance optimization"
+      ],
+      "prerequisites": [
+        "JavaScript proficiency (required)",
+        "ES6+ features (required)",
+        "HTML and CSS basics",
+        "DOM and web APIs understanding",
+        "TypeScript (recommended)"
+      ]
+    },
+    "angular": {
+      "title": "Angular Roadmap",
+      "url": "https://roadmap.sh/angular",
+      "description": "Angular - a comprehensive TypeScript-based framework for building enterprise-level web applications",
+      "total_topics": "140+",
+      "main_learning_paths": [
+        "Angular fundamentals and architecture",
+        "Components and directives",
+        "Dependency injection",
+        "Forms and validation",
+        "Routing and guards",
+        "State management and RxJS",
+        "Testing and performance",
+        "Modern signal-based approach"
+      ],
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "Angular Basics",
+          "topics": [
+            "Introduction to Angular",
+            "Angular history and evolution",
+            "Angular CLI setup",
+            "Project structure"
+          ]
+        },
+        {
+          "stage": 2,
+          "name": "Core Architecture",
+          "topics": [
+            "Angular architecture patterns",
+            "Modules and components",
+            "Data binding (interpolation, property, event, two-way)",
+            "Directives"
+          ]
+        },
+        {
+          "stage": 3,
+          "name": "Components & Views",
+          "topics": [
+            "Component creation and lifecycle",
+            "Lifecycle hooks (ngOnInit, ngOnDestroy, etc.)",
+            "Change detection mechanisms",
+            "Component communication",
+            "Dynamic components"
+          ]
+        },
+        {
+          "stage": 4,
+          "name": "Forms Management",
+          "topics": [
+            "Template-driven forms",
+            "Reactive forms",
+            "Form validation",
+            "Custom validators",
+            "Form builder patterns"
+          ]
+        },
+        {
+          "stage": 5,
+          "name": "Dependency Injection",
+          "topics": [
+            "Dependency injection patterns",
+            "Providers and services",
+            "Hierarchical injectors",
+            "Service registration",
+            "Factory providers"
+          ]
+        },
+        {
+          "stage": 6,
+          "name": "Routing & Navigation",
+          "topics": [
+            "Router setup and configuration",
+            "Route guards (CanActivate, CanDeactivate, Resolve)",
+            "Lazy loading modules",
+            "Nested routing",
+            "Query parameters and fragments"
+          ]
+        },
+        {
+          "stage": 7,
+          "name": "RxJS & Observables",
+          "topics": [
+            "Observable patterns",
+            "Operators (map, filter, reduce, merge, concat, etc.)",
+            "Subject types (Subject, BehaviorSubject, ReplaySubject)",
+            "Async pipe",
+            "Error handling with RxJS"
+          ]
+        },
+        {
+          "stage": 8,
+          "name": "State Management",
+          "topics": [
+            "NgRx state management",
+            "Actions, reducers, selectors",
+            "Effects for side effects",
+            "Alternative libraries (Akita, Elf)",
+            "Store patterns"
+          ]
+        },
+        {
+          "stage": 9,
+          "name": "HTTP & Data Services",
+          "topics": [
+            "HTTP client usage",
+            "Request/response interceptors",
+            "Error handling",
+            "Typed requests",
+            "Data caching strategies"
+          ]
+        },
+        {
+          "stage": 10,
+          "name": "Modern Angular (Signals)",
+          "topics": [
+            "Signal-based reactivity",
+            "New control flow (@if, @for, @switch)",
+            "Deferrable views (@defer)",
+            "Input signals",
+            "Computed and effect"
+          ]
+        },
+        {
+          "stage": 11,
+          "name": "Advanced Features",
+          "topics": [
+            "Pipes (built-in and custom)",
+            "Animation and transitions",
+            "Internationalization (i18n)",
+            "Accessibility (a11y)",
+            "Lazy loading strategies"
+          ]
+        },
+        {
+          "stage": 12,
+          "name": "Performance & Optimization",
+          "topics": [
+            "AOT compilation",
+            "Change detection optimization",
+            "Code splitting",
+            "Image optimization",
+            "Hydration techniques"
+          ]
+        },
+        {
+          "stage": 13,
+          "name": "Security",
+          "topics": [
+            "XSS (Cross-site scripting) prevention",
+            "CSRF (Cross-site request forgery) protection",
+            "Trusted types enforcement",
+            "HTTP security headers",
+            "Authorization and authentication"
+          ]
+        },
+        {
+          "stage": 14,
+          "name": "Testing",
+          "topics": [
+            "Unit testing with Jasmine/Jest",
+            "Testing utilities (TestBed, fixture)",
+            "End-to-end testing",
+            "Code coverage",
+            "Debugging and DevTools"
+          ]
+        }
+      ],
+      "key_topics": [
+        "Components and templates",
+        "Data binding",
+        "Directives",
+        "Services and dependency injection",
+        "Routing and guards",
+        "Forms (template-driven and reactive)",
+        "RxJS and observables",
+        "HTTP client",
+        "State management",
+        "Pipes",
+        "Modules",
+        "Testing",
+        "Performance optimization"
+      ],
+      "prerequisites": [
+        "JavaScript proficiency (required)",
+        "TypeScript proficiency (required)",
+        "ES6+ features",
+        "HTML and CSS basics",
+        "RxJS fundamentals (recommended)",
+        "Object-oriented programming concepts"
+      ]
+    },
+    "design_system": {
+      "title": "Design System Roadmap",
+      "url": "https://roadmap.sh/design-system",
+      "description": "Design System - a comprehensive guide to building, implementing, and maintaining modern design systems",
+      "total_topics": "100+",
+      "main_learning_paths": [
+        "Design system fundamentals and principles",
+        "Design language creation",
+        "Visual design elements",
+        "Component library development",
+        "Documentation and governance",
+        "Implementation and tooling",
+        "Maintenance and scalability"
+      ],
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "Design System Fundamentals",
+          "topics": [
+            "What is a design system",
+            "Design system vs component library",
+            "Business value and ROI",
+            "Design system maturity levels"
+          ]
+        },
+        {
+          "stage": 2,
+          "name": "Strategy & Planning",
+          "topics": [
+            "Vision and strategy",
+            "Atomic design principles",
+            "Existing design analysis",
+            "Audit and assessment"
+          ]
+        },
+        {
+          "stage": 3,
+          "name": "Design Language",
+          "topics": [
+            "Creating design language",
+            "Design principles and guidelines",
+            "Brand alignment",
+            "Design philosophy documentation"
+          ]
+        },
+        {
+          "stage": 4,
+          "name": "Visual Design Elements",
+          "topics": [
+            "Color systems and functional colors",
+            "Typography hierarchy and scales",
+            "Icon design and systems",
+            "Grid systems and layout",
+            "Spacing and rhythm",
+            "Sizes and units standardization",
+            "Breakpoints for responsive design"
+          ]
+        },
+        {
+          "stage": 5,
+          "name": "Component Design",
+          "topics": [
+            "Component architecture",
+            "Base components (buttons, cards, inputs)",
+            "Form components and patterns",
+            "Navigation components (dropdowns, tabs, modals)",
+            "Feedback components (toasts, notifications, loaders)",
+            "Content components (avatars, badges, lists)"
+          ]
+        },
+        {
+          "stage": 6,
+          "name": "Component Library Development",
+          "topics": [
+            "Component library creation",
+            "Design tokens definition",
+            "UI Kit development",
+            "Storybook integration",
+            "Component documentation"
+          ]
+        },
+        {
+          "stage": 7,
+          "name": "Documentation & Guidelines",
+          "topics": [
+            "Writing guidelines",
+            "Accessibility guidelines (WCAG compliance)",
+            "Microcopy guidelines",
+            "Usage guidance and patterns",
+            "Do's and don'ts documentation",
+            "Terminology and naming conventions"
+          ]
+        },
+        {
+          "stage": 8,
+          "name": "Implementation & Tooling",
+          "topics": [
+            "Design tokens tooling",
+            "Code generation from design",
+            "Style guide automation",
+            "Build tools and CI/CD",
+            "Version control strategies"
+          ]
+        },
+        {
+          "stage": 9,
+          "name": "Governance & Management",
+          "topics": [
+            "Governance structure",
+            "Contribution guidelines",
+            "Review process",
+            "Semantic versioning",
+            "Release strategy",
+            "Project management"
+          ]
+        },
+        {
+          "stage": 10,
+          "name": "Quality & Testing",
+          "topics": [
+            "Accessibility testing",
+            "Unit testing components",
+            "Visual regression testing",
+            "A/B testing and experiments",
+            "Performance monitoring",
+            "Service health metrics"
+          ]
+        },
+        {
+          "stage": 11,
+          "name": "Scaling & Evolution",
+          "topics": [
+            "Design system scaling",
+            "Multi-brand design systems",
+            "Platform-specific adaptations",
+            "Long-term maintenance",
+            "Community contribution"
+          ]
+        }
+      ],
+      "key_topics": [
+        "Design system principles",
+        "Color systems",
+        "Typography",
+        "Grid and spacing",
+        "Component patterns",
+        "Design tokens",
+        "Documentation",
+        "Accessibility",
+        "Component library",
+        "Governance",
+        "Version control",
+        "Testing and quality assurance"
+      ],
+      "prerequisites": [
+        "Design fundamentals (required)",
+        "UI/UX design experience",
+        "Frontend development knowledge (recommended)",
+        "Component architecture understanding",
+        "Typography and color theory basics"
+      ]
+    },
+    "ux_design": {
+      "title": "UX Design Roadmap",
+      "url": "https://roadmap.sh/ux-design",
+      "description": "UX Design - a comprehensive guide to creating user-centered digital experiences and interfaces",
+      "total_topics": "100+",
+      "main_learning_paths": [
+        "UX fundamentals and research",
+        "User research and analysis methods",
+        "Design thinking and ideation",
+        "Prototyping and wireframing",
+        "Interaction design",
+        "Visual design principles",
+        "User testing and validation",
+        "Design tools and technologies"
+      ],
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "UX Fundamentals",
+          "topics": [
+            "What is UX design",
+            "User-centered design principles",
+            "Design thinking methodology",
+            "UX vs UI distinction"
+          ]
+        },
+        {
+          "stage": 2,
+          "name": "User Research",
+          "topics": [
+            "User research methods",
+            "Competitor analysis",
+            "Customer experience mapping",
+            "User personas creation",
+            "Stakeholder interviews",
+            "User testing approaches"
+          ]
+        },
+        {
+          "stage": 3,
+          "name": "Analysis & Planning",
+          "topics": [
+            "Conceptual design",
+            "Information architecture",
+            "User flows and journeys",
+            "Wireframing",
+            "Sitemaps and task flows",
+            "Prototyping strategies"
+          ]
+        },
+        {
+          "stage": 4,
+          "name": "Behavioral Design",
+          "topics": [
+            "Behavior change strategies",
+            "Behavioral science principles",
+            "BJ Fogg's Behavior Model",
+            "Dual process theory",
+            "Nudge theory",
+            "Persuasive technology",
+            "Motivation and decision-making"
+          ]
+        },
+        {
+          "stage": 5,
+          "name": "Design Patterns & Techniques",
+          "topics": [
+            "UX patterns library",
+            "Call-to-action design",
+            "Gamification techniques",
+            "Goal trackers and progress visibility",
+            "Layout principles",
+            "Social proof deployment",
+            "Habit formation design"
+          ]
+        },
+        {
+          "stage": 6,
+          "name": "Interaction Design",
+          "topics": [
+            "Interaction patterns",
+            "Microinteractions",
+            "Animation for UX",
+            "Feedback mechanisms",
+            "Error handling and recovery",
+            "Loading states and affordances"
+          ]
+        },
+        {
+          "stage": 7,
+          "name": "Visual Design",
+          "topics": [
+            "Color psychology and application",
+            "Typography in UX",
+            "Visual hierarchy",
+            "Spacing and layout",
+            "Icon design",
+            "Visual consistency"
+          ]
+        },
+        {
+          "stage": 8,
+          "name": "Accessibility & Inclusivity",
+          "topics": [
+            "WCAG guidelines",
+            "Color contrast and readability",
+            "Keyboard navigation",
+            "Screen reader compatibility",
+            "Inclusive design practices",
+            "Diverse user considerations"
+          ]
+        },
+        {
+          "stage": 9,
+          "name": "Testing & Validation",
+          "topics": [
+            "Usability testing",
+            "A/B testing and multivariate testing",
+            "User interviews",
+            "Heatmaps and user session analysis",
+            "Impact measurement",
+            "Analytics and metrics"
+          ]
+        },
+        {
+          "stage": 10,
+          "name": "Business & Strategy",
+          "topics": [
+            "Business model canvas",
+            "Porter's five forces model",
+            "Lean canvas",
+            "Value proposition design",
+            "Market analysis",
+            "Competitive positioning"
+          ]
+        },
+        {
+          "stage": 11,
+          "name": "Tools & Technologies",
+          "topics": [
+            "Figma for design",
+            "Adobe XD",
+            "Balsamiq for wireframing",
+            "Prototyping tools",
+            "Collaboration platforms",
+            "Design handoff tools"
+          ]
+        },
+        {
+          "stage": 12,
+          "name": "Process & Collaboration",
+          "topics": [
+            "Design process workflows",
+            "Cross-functional collaboration",
+            "Stakeholder management",
+            "Design documentation",
+            "Design systems for UX",
+            "Agile and iterative design"
+          ]
+        }
+      ],
+      "key_topics": [
+        "User research and personas",
+        "User flows and journeys",
+        "Wireframing and prototyping",
+        "Information architecture",
+        "Interaction design",
+        "Visual design principles",
+        "Accessibility and inclusivity",
+        "Usability testing",
+        "A/B testing",
+        "Design tools (Figma, Adobe XD)",
+        "Design systems",
+        "Analytics and measurement",
+        "Behavioral design"
+      ],
+      "prerequisites": [
+        "Basic design knowledge (recommended)",
+        "Communication skills",
+        "Empathy and user-centric thinking",
+        "Problem-solving abilities",
+        "Critical thinking"
+      ]
+    }
+  },
+  "learning_dependencies": {
+    "foundational": [
+      "HTML (required for web development)",
+      "CSS (required for styling)",
+      "JavaScript (required for interactivity)"
+    ],
+    "intermediate": [
+      "TypeScript (builds on JavaScript)",
+      "Design System (applies web fundamentals)"
+    ],
+    "advanced_frontend": [
+      "React (requires JavaScript & HTML/CSS)",
+      "Vue (requires JavaScript & HTML/CSS)",
+      "Angular (requires TypeScript & JavaScript)"
+    ],
+    "specialized": [
+      "UX Design (distinct path, no hard requirements)",
+      "Design System (applies frontend knowledge)"
+    ]
+  },
+  "summary": {
+    "total_resources": "900+ learning topics across 9 roadmaps",
+    "progression_model": "Sequential from fundamentals (HTML/CSS/JavaScript) to specialized frameworks and design disciplines",
+    "typical_timeline": {
+      "html_css_javascript": "3-6 months (fundamentals)",
+      "typescript": "2-3 months (with JavaScript background)",
+      "framework_react_vue_angular": "3-6 months each (with JavaScript foundation)",
+      "design_system": "3-6 months (with design and frontend knowledge)",
+      "ux_design": "3-6 months (with design principles)"
+    },
+    "skill_pyramid": {
+      "level_1_foundation": ["HTML", "CSS", "JavaScript basics"],
+      "level_2_intermediate": ["TypeScript", "JavaScript advanced", "DOM APIs"],
+      "level_3_advanced": ["React", "Vue", "Angular", "Design Systems"],
+      "level_4_specialized": ["UX Design", "Advanced optimization", "Architecture"]
+    }
+  }
+}

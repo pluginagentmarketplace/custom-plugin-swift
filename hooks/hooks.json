@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "name": "learning-progress-tracker",
+      "description": "Track user learning progress across roadmaps",
+      "trigger": "on-skill-completed",
+      "action": "update-progress-stats",
+      "enabled": true
+    },
+    {
+      "name": "skill-recommendation-engine",
+      "description": "Suggest next learning topics based on current progress",
+      "trigger": "on-learning-path-started",
+      "action": "generate-recommendations",
+      "enabled": true
+    },
+    {
+      "name": "assessment-auto-scheduling",
+      "description": "Automatically schedule reassessments based on progress",
+      "trigger": "on-assessment-completed",
+      "action": "schedule-followup",
+      "interval": "4-weeks",
+      "enabled": true
+    },
+    {
+      "name": "career-milestone-tracking",
+      "description": "Track career development milestones",
+      "trigger": "on-goal-achieved",
+      "action": "update-career-progress",
+      "enabled": true
+    },
+    {
+      "name": "resource-update-notifier",
+      "description": "Notify about updated learning resources",
+      "trigger": "on-resource-update",
+      "action": "send-notification",
+      "enabled": true
+    },
+    {
+      "name": "portfolio-builder",
+      "description": "Track portfolio projects completed",
+      "trigger": "on-project-completed",
+      "action": "update-portfolio",
+      "enabled": true
+    },
+    {
+      "name": "community-engagement",
+      "description": "Encourage community participation and networking",
+      "trigger": "on-milestone-achieved",
+      "action": "suggest-community-activity",
+      "enabled": true
+    }
+  ],
+  "metrics": {
+    "track-learning-hours": true,
+    "track-projects-completed": true,
+    "track-skills-mastered": true,
+    "track-certifications": true,
+    "track-career-growth": true
+  },
+  "notifications": {
+    "learning-milestones": true,
+    "roadmap-updates": true,
+    "skill-assessments": true,
+    "career-opportunities": true,
+    "community-events": true
+  }
+}
