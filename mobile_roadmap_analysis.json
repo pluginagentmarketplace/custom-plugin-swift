@@ -1,0 +1,511 @@
+{
+  "analysis_metadata": {
+    "title": "Mobile & Cross-Platform Development Roadmaps Analysis",
+    "date_analyzed": "2025-11-18",
+    "source": "roadmap.sh",
+    "roadmaps_analyzed": 7
+  },
+  "native_platforms": {
+    "android": {
+      "name": "Android Developer Roadmap",
+      "approach": "Native",
+      "platform": "Android",
+      "language": "Kotlin/Java",
+      "build_systems": {
+        "primary": "Gradle",
+        "secondary": "Android Studio Build System",
+        "dependency_management": "Maven Central, Google Maven, JCenter",
+        "build_configuration": "build.gradle, settings.gradle"
+      },
+      "testing_strategies": {
+        "unit_testing": {
+          "framework": "JUnit",
+          "mocking": "Mockito, PowerMock"
+        },
+        "instrumentation_testing": {
+          "framework": "Espresso",
+          "ui_testing": "Espresso Framework"
+        },
+        "integration_testing": {
+          "framework": "AndroidX Test"
+        },
+        "performance_testing": {
+          "tools": "Android Profiler, Benchmarking"
+        }
+      },
+      "development_tools": [
+        "Android Studio IDE",
+        "Android SDK",
+        "Android Emulator",
+        "Logcat",
+        "Android Debug Bridge (ADB)"
+      ],
+      "architecture_patterns": [
+        "MVVM",
+        "MVP",
+        "MVC",
+        "Clean Architecture"
+      ],
+      "key_components": [
+        "Activities",
+        "Fragments",
+        "Services",
+        "Content Providers",
+        "Broadcast Receivers"
+      ]
+    },
+    "ios": {
+      "name": "iOS Developer Roadmap",
+      "approach": "Native",
+      "platform": "iOS/iPadOS",
+      "language": "Swift/Objective-C",
+      "build_systems": {
+        "primary": "Xcode Build System",
+        "package_manager": "Swift Package Manager (SPM)",
+        "secondary": "CocoaPods, Carthage",
+        "build_configuration": "xcconfig, plist files"
+      },
+      "testing_strategies": {
+        "unit_testing": {
+          "framework": "XCTest",
+          "mocking": "OCMock"
+        },
+        "ui_testing": {
+          "framework": "XCTest UI Testing"
+        },
+        "performance_testing": {
+          "framework": "XCTest Performance"
+        },
+        "integration_testing": {
+          "tools": "XCTest Asynchronous Testing"
+        }
+      },
+      "development_tools": [
+        "Xcode IDE",
+        "iOS SDK",
+        "iOS Simulator",
+        "Instruments",
+        "Swift Playground"
+      ],
+      "architecture_patterns": [
+        "MVVM",
+        "MVP",
+        "VIPER",
+        "Clean Architecture"
+      ],
+      "key_frameworks": [
+        "UIKit/SwiftUI",
+        "CoreData",
+        "Combine",
+        "NetworkFoundation"
+      ]
+    },
+    "swift_ui": {
+      "name": "Swift & SwiftUI Roadmap",
+      "approach": "Native",
+      "platform": "Apple Ecosystem (iOS, macOS, watchOS, tvOS)",
+      "language": "Swift",
+      "framework": "SwiftUI",
+      "build_systems": {
+        "primary": "Xcode Build System",
+        "package_manager": "Swift Package Manager",
+        "configuration": "xcconfig, Package.swift"
+      },
+      "testing_strategies": {
+        "unit_testing": {
+          "framework": "XCTest",
+          "approach": "View Model Testing"
+        },
+        "preview_testing": {
+          "tool": "SwiftUI Preview",
+          "purpose": "Quick visual validation"
+        },
+        "ui_testing": {
+          "framework": "XCTest UI Testing"
+        }
+      },
+      "development_tools": [
+        "Xcode 14+",
+        "SwiftUI Preview",
+        "Swift Compiler",
+        "Instruments for profiling"
+      ],
+      "key_features": [
+        "Declarative Syntax",
+        "Live Preview",
+        "Reactive State Management",
+        "Property Wrappers",
+        "@State, @Binding, @EnvironmentObject"
+      ],
+      "modernization": {
+        "replaces": "UIKit",
+        "advantages": "Rapid development, less code, stronger type safety"
+      }
+    }
+  },
+  "cross_platform_frameworks": {
+    "react_native": {
+      "name": "React Native Developer Roadmap",
+      "approach": "Cross-Platform",
+      "platforms": ["iOS", "Android"],
+      "language": "JavaScript/TypeScript",
+      "codebase_sharing": "75-90% code sharing between platforms",
+      "build_systems": {
+        "ios_build": "Xcode Build System (via React Native CLI)",
+        "android_build": "Gradle (via React Native CLI)",
+        "build_tools": "Metro Bundler",
+        "cli_tool": "React Native CLI",
+        "build_commands": [
+          "react-native run-ios",
+          "react-native run-android",
+          "react-native build-android"
+        ]
+      },
+      "testing_strategies": {
+        "unit_testing": {
+          "framework": "Jest",
+          "mocking": "Enzyme, React Test Library"
+        },
+        "integration_testing": {
+          "framework": "Detox",
+          "purpose": "E2E testing across platforms"
+        },
+        "snapshot_testing": {
+          "framework": "Jest Snapshots"
+        },
+        "platform_specific_testing": {
+          "ios": "Appium + XCTest",
+          "android": "Appium + Espresso"
+        }
+      },
+      "development_tools": [
+        "React Native CLI",
+        "Xcode (iOS builds)",
+        "Android Studio (Android builds)",
+        "Metro Debugger",
+        "React DevTools"
+      ],
+      "state_management": [
+        "Redux",
+        "Context API",
+        "MobX",
+        "Zustand"
+      ],
+      "native_modules": {
+        "purpose": "Access platform-specific APIs",
+        "ios": "Objective-C/Swift bridges",
+        "android": "Java/Kotlin bridges"
+      },
+      "performance_considerations": [
+        "Bridge communication overhead",
+        "Memory optimization",
+        "Native module optimization"
+      ]
+    },
+    "flutter": {
+      "name": "Flutter Developer Roadmap",
+      "approach": "Cross-Platform",
+      "platforms": ["iOS", "Android", "Web", "Desktop"],
+      "language": "Dart",
+      "code_reusability": "95%+ code sharing across platforms",
+      "build_systems": {
+        "primary": "Flutter Build System",
+        "android_backend": "Gradle",
+        "ios_backend": "Xcode Build System",
+        "build_tools": {
+          "cli": "Flutter CLI",
+          "package_manager": "Pub"
+        },
+        "build_commands": [
+          "flutter build apk",
+          "flutter build ios",
+          "flutter build web",
+          "flutter run"
+        ]
+      },
+      "testing_strategies": {
+        "unit_testing": {
+          "framework": "Flutter Test (built-in)",
+          "tool": "Mockito"
+        },
+        "widget_testing": {
+          "framework": "Flutter Widget Testing",
+          "approach": "UI component testing"
+        },
+        "integration_testing": {
+          "framework": "Flutter Integration Tests",
+          "tool": "flutter_integration_test"
+        },
+        "performance_testing": {
+          "tool": "Flutter Timeline, Observatory"
+        }
+      },
+      "development_tools": [
+        "Flutter SDK",
+        "Dart SDK",
+        "Android Studio with Flutter Plugin",
+        "VS Code with Flutter Extension",
+        "Xcode (for iOS)",
+        "Hot Reload/Hot Restart",
+        "DevTools"
+      ],
+      "architecture_patterns": [
+        "BLoC Pattern",
+        "Provider",
+        "GetX",
+        "Riverpod"
+      ],
+      "unique_advantages": [
+        "Hot Reload for rapid development",
+        "Single codebase for multiple platforms",
+        "High performance (compiled to native)",
+        "Rich widget library",
+        "Strong type system with Dart"
+      ],
+      "platform_channels": {
+        "purpose": "Access platform-specific APIs",
+        "ios": "Swift/Objective-C interop",
+        "android": "Kotlin/Java interop"
+      }
+    }
+  },
+  "web_frameworks": {
+    "nextjs": {
+      "name": "Next.js Roadmap",
+      "approach": "Web Framework (not mobile-specific)",
+      "relevance_to_mobile": "Backend for mobile apps, Web to Mobile PWA bridge",
+      "language": "JavaScript/TypeScript",
+      "runtime": "Node.js",
+      "build_systems": {
+        "build_tool": "Next.js Built-in Build System",
+        "bundler": "Webpack (configurable Turbopack)",
+        "development_server": "Next.js Dev Server",
+        "build_commands": [
+          "next build",
+          "next start",
+          "next dev"
+        ]
+      },
+      "testing_strategies": {
+        "unit_testing": {
+          "framework": "Jest",
+          "assertion": "Supertest for API testing"
+        },
+        "integration_testing": {
+          "framework": "React Testing Library",
+          "e2e": "Playwright, Cypress"
+        },
+        "api_testing": {
+          "tool": "REST client testing, GraphQL testing"
+        }
+      },
+      "development_tools": [
+        "Node.js",
+        "npm/yarn/pnpm",
+        "VS Code",
+        "Next.js CLI"
+      ],
+      "mobile_relevance": {
+        "progressive_web_apps": "PWA support for mobile web",
+        "api_backend": "Serve REST/GraphQL APIs for mobile apps",
+        "server_rendering": "Optimized for mobile clients"
+      }
+    }
+  },
+  "specialized_domains": {
+    "game_developer": {
+      "name": "Game Developer Roadmap",
+      "approach": "Cross-Platform Game Development",
+      "relevant_technologies": [
+        "Unity",
+        "Unreal Engine",
+        "Godot"
+      ],
+      "platforms": ["Mobile", "Console", "PC", "Web"],
+      "mobile_game_engines": {
+        "unity": {
+          "language": "C#",
+          "cross_platform": true,
+          "mobile_support": ["iOS", "Android", "WebGL"]
+        },
+        "unreal_engine": {
+          "language": "C++/Blueprint",
+          "cross_platform": true,
+          "mobile_support": ["iOS", "Android"]
+        },
+        "godot": {
+          "language": "GDScript",
+          "cross_platform": true,
+          "mobile_support": ["iOS", "Android", "Web"]
+        }
+      },
+      "build_systems": {
+        "unity": "Unity Build Pipeline",
+        "unreal": "Unreal Automation Tool",
+        "godot": "Godot Export System"
+      },
+      "testing_strategies": {
+        "gameplay_testing": ["Manual testing", "Automated test scenes"],
+        "performance_testing": ["Profiling tools", "Frame rate monitoring"],
+        "device_testing": ["Physical devices", "Emulators/Simulators"]
+      },
+      "development_tools": [
+        "Game Engine IDE",
+        "Debuggers",
+        "Profilers",
+        "Physics engines",
+        "Asset management tools"
+      ]
+    }
+  },
+  "comparison_matrix": {
+    "native_vs_cross_platform": {
+      "native_advantages": [
+        "Maximum performance",
+        "Full platform API access",
+        "Best user experience",
+        "Platform-specific optimizations"
+      ],
+      "native_disadvantages": [
+        "Separate codebases required",
+        "Higher development cost",
+        "Longer time to market",
+        "Larger team required"
+      ],
+      "cross_platform_advantages": [
+        "Single codebase",
+        "Faster development",
+        "Lower development cost",
+        "Easier maintenance",
+        "Easier to scale teams"
+      ],
+      "cross_platform_disadvantages": [
+        "Performance overhead",
+        "Limited platform API access",
+        "Abstraction layers",
+        "Debugging complexity"
+      ]
+    }
+  },
+  "build_systems_summary": {
+    "native_android": {
+      "primary": "Gradle",
+      "language": "Groovy/Kotlin DSL",
+      "features": ["Multi-module builds", "Variant management", "Dependency resolution"],
+      "configuration": "build.gradle.kts"
+    },
+    "native_ios": {
+      "primary": "Xcode Build System",
+      "secondary": ["Swift Package Manager", "CocoaPods"],
+      "language": "Swift, Objective-C",
+      "configuration": "xcconfig, Package.swift"
+    },
+    "cross_platform_react_native": {
+      "primary": "React Native CLI + Gradle/Xcode",
+      "bundler": "Metro Bundler",
+      "package_manager": "npm/yarn",
+      "configuration": "package.json"
+    },
+    "cross_platform_flutter": {
+      "primary": "Flutter Build System",
+      "backend": ["Gradle", "Xcode"],
+      "package_manager": "Pub",
+      "configuration": "pubspec.yaml"
+    }
+  },
+  "testing_frameworks_summary": {
+    "android": {
+      "unit": ["JUnit", "Mockito", "Robolectric"],
+      "ui": ["Espresso", "UI Automator"],
+      "integration": ["AndroidX Test"]
+    },
+    "ios": {
+      "unit": ["XCTest", "OCMock"],
+      "ui": ["XCTest UI Testing"],
+      "integration": ["XCTest with async support"]
+    },
+    "react_native": {
+      "unit": ["Jest", "React Test Library"],
+      "e2e": ["Detox", "Appium"],
+      "integration": ["Detox"]
+    },
+    "flutter": {
+      "unit": ["Flutter Test"],
+      "widget": ["Flutter Widget Testing"],
+      "integration": ["Flutter Integration Tests"],
+      "e2e": ["Integration test driver"]
+    }
+  },
+  "recommendations": {
+    "native_development": {
+      "best_for": [
+        "Performance-critical applications",
+        "Apps requiring extensive platform APIs",
+        "Games with high-end graphics",
+        "Apps with complex native integrations"
+      ],
+      "android": "Use Kotlin + Gradle + Espresso",
+      "ios": "Use Swift + Xcode + SwiftUI + XCTest"
+    },
+    "cross_platform_development": {
+      "best_for": [
+        "Multi-platform launch required",
+        "Limited budget/timeline",
+        "Simple to moderate complexity",
+        "MVP/rapid prototyping"
+      ],
+      "react_native": "Good for JavaScript teams, moderate performance requirements",
+      "flutter": "Better performance, better tooling, larger widget library, growing ecosystem"
+    },
+    "web_backend": {
+      "next_js": "Use for REST/GraphQL APIs, Progressive Web Apps, backend for mobile apps"
+    }
+  },
+  "technology_stack_examples": {
+    "startup_mvp": {
+      "platform": "Cross-Platform",
+      "stack": [
+        "Flutter (frontend)",
+        "Next.js (backend API)",
+        "PostgreSQL (database)"
+      ],
+      "rationale": "Fast development, code reuse, modern backend"
+    },
+    "performance_critical": {
+      "android": ["Kotlin", "Gradle", "Espresso"],
+      "ios": ["Swift", "SwiftUI", "XCTest"],
+      "rationale": "Maximum performance, native optimization"
+    },
+    "javascript_centric": {
+      "mobile": ["React Native"],
+      "backend": ["Next.js"],
+      "rationale": "Single language across stack"
+    },
+    "enterprise": {
+      "android": ["Kotlin + MVVM + Espresso"],
+      "ios": ["Swift + MVVM + XCTest"],
+      "backend": ["Next.js + TypeScript"],
+      "rationale": "Best practices, type safety, native performance"
+    }
+  },
+  "current_trends_2025": {
+    "native_platforms": [
+      "SwiftUI dominance in iOS development",
+      "Kotlin as standard for Android",
+      "Increased emphasis on performance",
+      "Native module optimization"
+    ],
+    "cross_platform": [
+      "Flutter gaining market share",
+      "React Native stabilization",
+      "Better platform integration",
+      "Improved developer tooling"
+    ],
+    "testing": [
+      "Shift left testing approach",
+      "Increased automation",
+      "Performance testing importance",
+      "Accessibility testing focus"
+    ]
+  }
+}

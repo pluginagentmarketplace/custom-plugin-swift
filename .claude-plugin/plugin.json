@@ -1,0 +1,136 @@
+{
+  "name": "Developer Roadmap",
+  "description": "Comprehensive learning guide for 65+ development roles from HTML basics to AI engineering, with personalized learning paths, skill assessment, and career guidance.",
+  "version": "1.0.0",
+  "author": "Claude Code",
+  "license": "MIT",
+  "repository": "https://github.com/kamranahmedse/developer-roadmap",
+  "keywords": [
+    "learning",
+    "developer",
+    "roadmap",
+    "career",
+    "skills",
+    "frontend",
+    "backend",
+    "devops",
+    "ai",
+    "mobile",
+    "full-stack",
+    "growth"
+  ],
+  "agents": [
+    {
+      "id": "frontend-ui-specialist",
+      "name": "Frontend & UI Specialist",
+      "description": "Expert in modern web development including HTML, CSS, JavaScript, TypeScript, and frameworks like React, Vue, Angular. Covers design systems and UX design.",
+      "file": "agents/01-frontend-ui-specialist.md"
+    },
+    {
+      "id": "backend-database-specialist",
+      "name": "Backend & Database Specialist",
+      "description": "Master of server-side development, API design, database management (SQL, MongoDB, Redis), and system architecture.",
+      "file": "agents/02-backend-database-specialist.md"
+    },
+    {
+      "id": "devops-infrastructure-specialist",
+      "name": "DevOps & Infrastructure Specialist",
+      "description": "Expert in containerization (Docker), orchestration (Kubernetes), cloud services (AWS), and CI/CD pipelines.",
+      "file": "agents/03-devops-infrastructure-specialist.md"
+    },
+    {
+      "id": "data-science-ai-specialist",
+      "name": "Data Science & AI Specialist",
+      "description": "Specialist in machine learning, data engineering, AI agents, LLMs, RAG systems, and data analytics.",
+      "file": "agents/04-data-science-ai-specialist.md"
+    },
+    {
+      "id": "mobile-cross-platform-specialist",
+      "name": "Mobile & Cross-Platform Specialist",
+      "description": "Expert in native (Android, iOS, Swift) and cross-platform (React Native, Flutter) mobile development.",
+      "file": "agents/05-mobile-cross-platform-specialist.md"
+    },
+    {
+      "id": "programming-languages-specialist",
+      "name": "Programming Languages Specialist",
+      "description": "Comprehensive guide to Python, JavaScript, Java, Go, Rust, C++, PHP, Kotlin, Spring Boot, and ASP.NET Core.",
+      "file": "agents/06-programming-languages-specialist.md"
+    },
+    {
+      "id": "architecture-security-specialist",
+      "name": "Architecture, Security & Soft Skills Specialist",
+      "description": "Expert in software architecture, design patterns, cybersecurity, management, and career development.",
+      "file": "agents/07-architecture-security-specialist.md"
+    }
+  ],
+  "commands": [
+    {
+      "id": "explore-roadmap",
+      "name": "Explore Roadmap",
+      "description": "Discover and explore any of the 65+ development roadmaps with detailed learning paths",
+      "file": "commands/explore-roadmap.md"
+    },
+    {
+      "id": "learning-path",
+      "name": "Learning Path",
+      "description": "Get personalized learning recommendations based on your goals and current level",
+      "file": "commands/learning-path.md"
+    },
+    {
+      "id": "skill-assessment",
+      "name": "Skill Assessment",
+      "description": "Evaluate your knowledge in specific areas and identify gaps",
+      "file": "commands/skill-assessment.md"
+    },
+    {
+      "id": "career-guidance",
+      "name": "Career Guidance",
+      "description": "Get professional insights and career path recommendations",
+      "file": "commands/career-guidance.md"
+    }
+  ],
+  "skills": [
+    {
+      "id": "frontend-ui",
+      "name": "Frontend & UI",
+      "description": "Master frontend development with comprehensive guides on web technologies",
+      "file": "skills/frontend-ui/SKILL.md"
+    },
+    {
+      "id": "backend-database",
+      "name": "Backend & Database",
+      "description": "Build scalable backend systems with databases and APIs",
+      "file": "skills/backend-database/SKILL.md"
+    },
+    {
+      "id": "devops-infrastructure",
+      "name": "DevOps & Infrastructure",
+      "description": "Deploy and manage systems at scale with modern DevOps practices",
+      "file": "skills/devops-infrastructure/SKILL.md"
+    },
+    {
+      "id": "data-science-ai",
+      "name": "Data Science & AI",
+      "description": "Build intelligent systems with machine learning and AI",
+      "file": "skills/data-science-ai/SKILL.md"
+    },
+    {
+      "id": "mobile-cross-platform",
+      "name": "Mobile & Cross-Platform",
+      "description": "Develop mobile apps for all platforms",
+      "file": "skills/mobile-cross-platform/SKILL.md"
+    },
+    {
+      "id": "programming-languages",
+      "name": "Programming Languages",
+      "description": "Master multiple programming languages and frameworks",
+      "file": "skills/programming-languages/SKILL.md"
+    },
+    {
+      "id": "architecture-security",
+      "name": "Architecture, Security & Soft Skills",
+      "description": "Design robust systems, secure applications, and lead teams",
+      "file": "skills/architecture-security/SKILL.md"
+    }
+  ]
+}
