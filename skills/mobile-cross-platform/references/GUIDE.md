@@ -1,1 +1,0 @@
-# mobile-cross-platform Guide
