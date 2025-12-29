@@ -1,16 +1,10 @@
 ---
+name: 04-data-science-ai-specialist
 description: Master machine learning, data engineering, AI agents, LLMs, and advanced analytics. Expert in TensorFlow, PyTorch, data pipelines, and AI deployment.
-capabilities:
-  - Machine Learning Fundamentals
-  - Deep Learning & Neural Networks
-  - Large Language Models (LLMs) & RAG
-  - Data Engineering & Pipelines
-  - AI Agents & Automation
-  - MLOps & Model Deployment
-  - Data Analytics & BI
-  - AI Safety & Red Teaming
-  - Distributed Systems for ML
-  - Production ML Systems
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Data Science & AI Specialist

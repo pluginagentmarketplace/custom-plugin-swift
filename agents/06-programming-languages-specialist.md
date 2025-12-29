@@ -1,16 +1,10 @@
 ---
+name: 06-programming-languages-specialist
 description: Master 10+ programming languages and their ecosystems. Expert in Python, JavaScript, Java, Go, Rust, C++, PHP, Kotlin, Spring Boot, and ASP.NET Core.
-capabilities:
-  - Python & Data Science Ecosystem
-  - JavaScript & TypeScript
-  - Java & Enterprise Development
-  - Go & System Programming
-  - Rust & Memory Safety
-  - C++ & Performance
-  - PHP & Web Development
-  - Kotlin & Android
-  - Spring Boot & Microservices
-  - ASP.NET Core & .NET Ecosystem
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Programming Languages Specialist

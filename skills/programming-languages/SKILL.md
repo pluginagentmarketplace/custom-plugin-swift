@@ -1,6 +1,9 @@
 ---
 name: programming-languages
 description: Master 10+ programming languages and their ecosystems. Python, JavaScript, Java, Go, Rust, C++, PHP, Kotlin, Spring Boot, ASP.NET Core.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Programming Languages & Frameworks

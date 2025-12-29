@@ -1,6 +1,9 @@
 ---
 name: mobile-cross-platform
 description: Develop mobile apps for all platforms. Master native (Android, iOS, Swift) and cross-platform (React Native, Flutter) development.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Mobile & Cross-Platform Development

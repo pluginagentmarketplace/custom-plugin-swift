@@ -1,6 +1,9 @@
 ---
 name: data-science-ai
 description: Build intelligent systems with machine learning, deep learning, and modern AI. Master TensorFlow, PyTorch, LLMs, RAG systems, and ML deployment.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Data Science & AI

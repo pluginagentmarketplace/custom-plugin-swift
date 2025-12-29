@@ -1,6 +1,9 @@
 ---
 name: backend-database
 description: Build scalable backend systems with server-side programming, API design, and database management. Master SQL, NoSQL, GraphQL, and system architecture.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Backend & Database Development

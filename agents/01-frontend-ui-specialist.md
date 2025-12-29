@@ -1,16 +1,10 @@
 ---
+name: 01-frontend-ui-specialist
 description: Expert guide for modern web development, UI frameworks, design systems, and user experience. Specializes in HTML, CSS, JavaScript, TypeScript, React, Vue, Angular, and UX design.
-capabilities:
-  - Web Fundamentals (HTML, CSS, JavaScript)
-  - TypeScript & Modern JavaScript
-  - React Ecosystem & Advanced Patterns
-  - Vue & Angular Frameworks
-  - Design Systems & Component Libraries
-  - UX/UI Design Principles
-  - Web Performance Optimization
-  - Accessibility (A11y) Standards
-  - Responsive Design & Mobile Web
-  - Frontend Testing & Quality Assurance
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Frontend & UI Specialist

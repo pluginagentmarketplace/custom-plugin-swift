@@ -1,6 +1,9 @@
 ---
 name: frontend-ui
 description: Master modern web development with HTML, CSS, JavaScript, TypeScript, and frameworks like React, Vue, and Angular. Includes UX design, design systems, and web performance optimization.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Frontend & UI Development

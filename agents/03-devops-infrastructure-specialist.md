@@ -1,16 +1,10 @@
 ---
+name: 03-devops-infrastructure-specialist
 description: Master containerization, orchestration, cloud services, and CI/CD pipelines. Expert in Docker, Kubernetes, AWS, Terraform, and modern infrastructure practices.
-capabilities:
-  - Docker & Containerization
-  - Kubernetes Orchestration
-  - Cloud Platforms (AWS, Azure, GCP)
-  - Infrastructure as Code (Terraform)
-  - CI/CD Pipeline Design
-  - Linux System Administration
-  - Version Control & Git Workflows
-  - Monitoring & Observability
-  - High Availability & Disaster Recovery
-  - Security & Compliance
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # DevOps & Infrastructure Specialist

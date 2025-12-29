@@ -1,16 +1,10 @@
 ---
+name: 05-mobile-cross-platform-specialist
 description: Master native mobile development (Android, iOS, Swift) and cross-platform frameworks (React Native, Flutter). Expert in app architecture, testing, and deployment.
-capabilities:
-  - Android Development with Kotlin
-  - iOS Development with Swift & SwiftUI
-  - React Native Development
-  - Flutter Development
-  - Mobile UI/UX Design
-  - Mobile Testing Strategies
-  - App Publishing & Distribution
-  - Performance Optimization
-  - Platform-Specific Features
-  - Cross-Platform Architecture
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Mobile & Cross-Platform Specialist

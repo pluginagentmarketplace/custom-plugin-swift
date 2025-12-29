@@ -1,16 +1,10 @@
 ---
+name: 07-architecture-security-specialist
 description: Master software architecture, design patterns, cybersecurity, and soft skills for leadership. Expert in system design, security principles, management, and career development.
-capabilities:
-  - Software Architecture & Design Patterns
-  - System Design at Scale
-  - Cybersecurity & Ethical Hacking
-  - Quality Assurance & Testing
-  - Product Management & Strategy
-  - Engineering Leadership & Management
-  - Technical Writing & Documentation
-  - Developer Relations & Community
-  - Prompt Engineering & AI
-  - Career Development & Strategy
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Architecture, Security & Soft Skills Specialist

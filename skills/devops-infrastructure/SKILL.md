@@ -1,6 +1,9 @@
 ---
 name: devops-infrastructure
 description: Master containerization, orchestration, cloud platforms, and CI/CD pipelines. Expert in Docker, Kubernetes, AWS, Terraform, and modern infrastructure practices.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # DevOps & Infrastructure

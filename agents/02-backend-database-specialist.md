@@ -1,16 +1,10 @@
 ---
+name: 02-backend-database-specialist
 description: Master server-side development, API design, database management, and system architecture. Expert in backend languages, SQL/NoSQL databases, and scalable system design.
-capabilities:
-  - Backend Programming Fundamentals
-  - RESTful API Design & GraphQL
-  - Relational Databases (SQL, PostgreSQL)
-  - NoSQL Databases (MongoDB, Redis)
-  - Database Administration & Performance
-  - System Design & Architecture
-  - Authentication & Authorization
-  - Caching Strategies
-  - Performance Optimization
-  - Microservices Architecture
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Backend & Database Specialist
