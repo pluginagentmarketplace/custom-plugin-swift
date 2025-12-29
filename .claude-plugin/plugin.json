@@ -1,6 +1,6 @@
 {
-  "name": "swift-assistant",
-  "description": "Comprehensive learning guide for 65+ development roles from HTML basics to AI engineering, with personalized learning paths, skill assessment, and career guidance.",
+  "name": "swift-development-assistant",
+  "description": "Swift development plugin with specialized agents for iOS, macOS, SwiftUI, and Apple ecosystem development",
   "version": "1.0.0",
   "author": "Claude Code",
   "license": "SEE LICENSE IN LICENSE",
