@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-swift",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "swift-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for swift development",
+      "version": "1.0.0"
+    }
+  ]
+}

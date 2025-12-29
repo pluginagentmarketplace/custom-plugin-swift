@@ -1,3 +1,9 @@
+---
+name: career-guidance
+description: Career Guidance
+allowed-tools: Read
+---
+
 # Career Guidance
 
 Get professional insights, career path recommendations, and guidance for long-term career planning and development.

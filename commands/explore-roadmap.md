@@ -1,3 +1,9 @@
+---
+name: explore-roadmap
+description: Explore Roadmap
+allowed-tools: Read
+---
+
 # Explore Roadmap
 
 Discover and explore any of the 65+ development roadmaps with detailed learning paths, resources, and career guidance.
@@ -159,4 +165,3 @@ Compare different approaches:
 
 ---
 
-*Powered by developer-roadmap project with 65+ comprehensive roadmaps*

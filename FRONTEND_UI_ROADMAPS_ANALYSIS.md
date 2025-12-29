@@ -2,7 +2,6 @@
 ## Developer Roadmap Project (roadmap.sh)
 
 **Analysis Date:** November 18, 2025
-**Source:** https://github.com/kamranahmedse/developer-roadmap
 **Total Roadmaps Analyzed:** 9
 **Total Learning Topics:** 900+
 
@@ -10,7 +9,6 @@
 
 ## Executive Summary
 
-This comprehensive analysis covers 9 frontend and UI development roadmaps from the developer-roadmap project. The roadmaps are organized in a learning pyramid structure that progresses from foundational web technologies to advanced frameworks and specialized design disciplines.
 
 ### Learning Hierarchy
 
@@ -527,7 +525,6 @@ Timeline: 18-24 months
 
 ## Conclusion
 
-The developer-roadmap project provides a comprehensive, structured learning framework for frontend and UI development. With 900+ learning topics organized across 9 specialized roadmaps, it offers clear progression paths from foundational web technologies to advanced frameworks and specialized design disciplines.
 
 The key to successful learning is:
 1. **Start with fundamentals** (HTML, CSS, JavaScript)
@@ -539,5 +536,4 @@ The key to successful learning is:
 ---
 
 **Generated:** November 18, 2025
-**Source:** https://github.com/kamranahmedse/developer-roadmap
 **Website:** https://roadmap.sh/

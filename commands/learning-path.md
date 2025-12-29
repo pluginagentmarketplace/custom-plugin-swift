@@ -1,3 +1,9 @@
+---
+name: learning-path
+description: Learning Path
+allowed-tools: Read
+---
+
 # Learning Path
 
 Get personalized learning recommendations based on your goals, experience level, and learning style.

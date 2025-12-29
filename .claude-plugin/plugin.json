@@ -1,9 +1,9 @@
 {
-  "name": "Developer Roadmap",
+  "name": "swift-assistant",
   "description": "Comprehensive learning guide for 65+ development roles from HTML basics to AI engineering, with personalized learning paths, skill assessment, and career guidance.",
   "version": "1.0.0",
   "author": "Claude Code",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/kamranahmedse/developer-roadmap",
   "keywords": [
     "learning",

@@ -1,3 +1,9 @@
+---
+name: skill-assessment
+description: Skill Assessment
+allowed-tools: Read
+---
+
 # Skill Assessment
 
 Evaluate your knowledge across different technology areas and identify skill gaps for targeted improvement.
