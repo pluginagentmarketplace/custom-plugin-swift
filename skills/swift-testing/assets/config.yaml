@@ -1,0 +1,10 @@
+# Swift Testing Configuration
+framework: XCTest
+parallel_testing: true
+code_coverage: true
+minimum_coverage: 80
+
+test_targets:
+  - UnitTests
+  - IntegrationTests
+  - UITests

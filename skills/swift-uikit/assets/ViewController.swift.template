@@ -1,0 +1,32 @@
+import UIKit
+
+class {{CLASS_NAME}}ViewController: UIViewController {
+    
+    // MARK: - UI Elements
+    private lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.font = .preferredFont(forTextStyle: .headline)
+        return label
+    }()
+    
+    // MARK: - Lifecycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+        setupConstraints()
+    }
+    
+    // MARK: - Setup
+    private func setupUI() {
+        view.backgroundColor = .systemBackground
+        view.addSubview(titleLabel)
+    }
+    
+    private func setupConstraints() {
+        NSLayoutConstraint.activate([
+            titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
+    }
+}

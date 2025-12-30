@@ -1,0 +1,10 @@
+# Networking Configuration
+base_url: "https://api.example.com"
+timeout_seconds: 30
+retry_count: 3
+
+headers:
+  Content-Type: "application/json"
+  Accept: "application/json"
+
+cache_policy: returnCacheDataElseLoad

@@ -1,0 +1,36 @@
+import Foundation
+import Combine
+
+@MainActor
+final class {{NAME}}ViewModel: ObservableObject {
+    // MARK: - Published Properties
+    @Published private(set) var state: ViewState = .idle
+    @Published private(set) var items: [Item] = []
+    
+    // MARK: - Dependencies
+    private let useCase: {{NAME}}UseCaseProtocol
+    private var cancellables = Set<AnyCancellable>()
+    
+    // MARK: - Init
+    init(useCase: {{NAME}}UseCaseProtocol) {
+        self.useCase = useCase
+    }
+    
+    // MARK: - Actions
+    func load() async {
+        state = .loading
+        do {
+            items = try await useCase.execute()
+            state = .loaded
+        } catch {
+            state = .error(error.localizedDescription)
+        }
+    }
+}
+
+enum ViewState {
+    case idle
+    case loading
+    case loaded
+    case error(String)
+}

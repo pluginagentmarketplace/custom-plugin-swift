@@ -1,0 +1,13 @@
+# Swift Concurrency Configuration
+minimum_swift: "5.5"
+strict_concurrency: complete
+
+patterns:
+  - async_await
+  - actors
+  - task_groups
+  - async_sequences
+  
+isolation:
+  main_actor: UI updates only
+  global_actors: Domain specific

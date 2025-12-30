@@ -1,0 +1,20 @@
+import SwiftUI
+
+struct {{VIEW_NAME}}View: View {
+    @State private var isLoading = false
+    
+    var body: some View {
+        VStack {
+            if isLoading {
+                ProgressView()
+            } else {
+                ContentView()
+            }
+        }
+        .navigationTitle("{{VIEW_NAME}}")
+    }
+}
+
+#Preview {
+    {{VIEW_NAME}}View()
+}

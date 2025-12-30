@@ -1,0 +1,24 @@
+import XCTest
+@testable import {{MODULE_NAME}}
+
+final class {{CLASS_NAME}}Tests: XCTestCase {
+    var sut: {{CLASS_NAME}}!
+    
+    override func setUp() {
+        super.setUp()
+        sut = {{CLASS_NAME}}()
+    }
+    
+    override func tearDown() {
+        sut = nil
+        super.tearDown()
+    }
+    
+    func test_{{METHOD_NAME}}_{{SCENARIO}}_{{EXPECTATION}}() {
+        // Given
+        
+        // When
+        
+        // Then
+    }
+}

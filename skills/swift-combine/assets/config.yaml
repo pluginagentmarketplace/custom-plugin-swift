@@ -1,0 +1,11 @@
+# Combine Configuration
+operators:
+  transformation: [map, flatMap, compactMap]
+  filtering: [filter, removeDuplicates]
+  combining: [merge, zip, combineLatest]
+  timing: [debounce, throttle, delay]
+  
+error_handling:
+  - catch
+  - retry
+  - replaceError

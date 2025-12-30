@@ -1,0 +1,18 @@
+# Architecture Configuration
+pattern: MVVM-C  # MVVM with Coordinators
+
+layers:
+  presentation:
+    - Views
+    - ViewModels
+    - Coordinators
+  domain:
+    - UseCases
+    - Entities
+    - Repositories (protocols)
+  data:
+    - Repositories (implementations)
+    - DataSources
+    - DTOs
+    
+dependency_injection: true

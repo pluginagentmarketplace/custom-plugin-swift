@@ -1,20 +1,21 @@
 <div align="center">
 
 <!-- Animated Typing Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Swift+Assistant;7+Agents+%7C+7+Skills;Claude+Code+Plugin" alt="Swift Assistant" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FA7343&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Swift+Development+Assistant;8+Agents+%7C+12+Skills;iOS+%7C+macOS+%7C+SwiftUI" alt="Swift Development Assistant" />
 
 <br/>
 
 <!-- Badge Row 1: Status Badges -->
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-swift/releases)
+[![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-swift/releases)
 [![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
 [![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
 <!-- Badge Row 2: Content Badges -->
-[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
-[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
+[![Agents](https://img.shields.io/badge/Agents-8-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-12-purple?style=flat-square&logo=lightning)](#-skills)
 [![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
+[![Swift](https://img.shields.io/badge/Swift-5.9-FA7343?style=flat-square&logo=swift)](#)
 
 <br/>
 
@@ -25,7 +26,7 @@
 
 ### What is this?
 
-> **Swift Assistant** is a Claude Code plugin with **7 agents** and **7 skills** for swift development.
+> **Swift Development Assistant** is a Claude Code plugin with **8 agents** and **12 skills** for mastering Swift, iOS, macOS, and Apple ecosystem development.
 
 </div>
 
@@ -55,6 +56,7 @@
 
 - Claude Code CLI v2.0.27+
 - Active Claude subscription
+- Swift 5.9+ / Xcode 15+
 
 ### Installation (Choose One)
 
@@ -66,7 +68,7 @@
 /plugin add marketplace pluginagentmarketplace/custom-plugin-swift
 
 # Step 2️⃣ Install the plugin
-/plugin install swift-assistant@pluginagentmarketplace-swift
+/plugin install swift-development-assistant
 
 # Step 3️⃣ Restart Claude Code
 # Close and reopen your terminal/IDE
@@ -95,12 +97,14 @@ cd custom-plugin-swift
 After restart, you should see these agents:
 
 ```
-swift-assistant:02-backend-database-specialist
-swift-assistant:04-data-science-ai-specialist
-swift-assistant:07-architecture-security-specialist
-swift-assistant:05-mobile-cross-platform-specialist
-swift-assistant:03-devops-infrastructure-specialist
-... and 2 more
+swift-development-assistant:01-swift-fundamentals
+swift-development-assistant:02-swift-ios
+swift-development-assistant:03-swift-swiftui
+swift-development-assistant:04-swift-data
+swift-development-assistant:05-swift-macos
+swift-development-assistant:06-swift-testing
+swift-development-assistant:07-swift-performance
+swift-development-assistant:08-swift-advanced
 ```
 
 ---
@@ -109,42 +113,49 @@ swift-assistant:03-devops-infrastructure-specialist
 
 | Feature | Description |
 |---------|-------------|
-| 🤖 **7 Agents** | Specialized AI agents for swift tasks |
-| 🛠️ **7 Skills** | Reusable capabilities with Golden Format |
-| ⌨️ **4 Commands** | Quick slash commands |
+| 🤖 **8 Agents** | Specialized AI agents for Swift/iOS/macOS |
+| 🛠️ **12 Skills** | Complete Golden Format with real templates |
+| ⌨️ **4 Commands** | Swift-specific slash commands |
 | 🔄 **SASMP v1.3.0** | Full protocol compliance |
+| 📱 **iOS/macOS** | Full Apple ecosystem support |
 
 ---
 
 ## 🤖 Agents
 
-### 7 Specialized Agents
+### 8 Specialized Swift Agents
 
 | # | Agent | Purpose |
 |---|-------|---------|
-| 1 | **02-backend-database-specialist** | Master server-side development, API design, database managem |
-| 2 | **04-data-science-ai-specialist** | Master machine learning, data engineering, AI agents, LLMs,  |
-| 3 | **07-architecture-security-specialist** | Master software architecture, design patterns, cybersecurity |
-| 4 | **05-mobile-cross-platform-specialist** | Master native mobile development (Android, iOS, Swift) and c |
-| 5 | **03-devops-infrastructure-specialist** | Master containerization, orchestration, cloud services, and  |
-| 6 | **01-frontend-ui-specialist** | Expert guide for modern web development, UI frameworks, desi |
-| 7 | **06-programming-languages-specialist** | Master 10+ programming languages and their ecosystems. Exper |
+| 1 | **swift-fundamentals** | Swift basics, optionals, protocols, extensions |
+| 2 | **swift-ios** | iOS app development, UIKit, lifecycle |
+| 3 | **swift-swiftui** | SwiftUI framework, declarative UI |
+| 4 | **swift-data** | Data management, Core Data, persistence |
+| 5 | **swift-macos** | macOS development, AppKit, sandboxing |
+| 6 | **swift-testing** | XCTest, TDD, mocking, coverage |
+| 7 | **swift-performance** | Optimization, profiling, memory |
+| 8 | **swift-advanced** | Metaprogramming, macros, generics |
 
 ---
 
 ## 🛠️ Skills
 
-### Available Skills
+### Available Skills (12 Golden Format)
 
 | Skill | Description | Invoke |
 |-------|-------------|--------|
-| `architecture-security` | Design robust systems and secure applications. Master softwa | `Skill("swift-assistant:architecture-security")` |
-| `frontend-ui` | Master modern web development with HTML, CSS, JavaScript, Ty | `Skill("swift-assistant:frontend-ui")` |
-| `mobile-cross-platform` | Develop mobile apps for all platforms. Master native (Androi | `Skill("swift-assistant:mobile-cross-platform")` |
-| `backend-database` | Build scalable backend systems with server-side programming, | `Skill("swift-assistant:backend-database")` |
-| `data-science-ai` | Build intelligent systems with machine learning, deep learni | `Skill("swift-assistant:data-science-ai")` |
-| `programming-languages` | Master 10+ programming languages and their ecosystems. Pytho | `Skill("swift-assistant:programming-languages")` |
-| `devops-infrastructure` | Master containerization, orchestration, cloud platforms, and | `Skill("swift-assistant:devops-infrastructure")` |
+| `swift-fundamentals` | Language basics, optionals, protocols | `Skill("swift-fundamentals")` |
+| `swift-ios-basics` | iOS development fundamentals | `Skill("swift-ios-basics")` |
+| `swift-swiftui` | SwiftUI framework mastery | `Skill("swift-swiftui")` |
+| `swift-uikit` | UIKit framework patterns | `Skill("swift-uikit")` |
+| `swift-networking` | URLSession, async networking | `Skill("swift-networking")` |
+| `swift-core-data` | Core Data persistence | `Skill("swift-core-data")` |
+| `swift-combine` | Reactive programming | `Skill("swift-combine")` |
+| `swift-concurrency` | async/await, actors | `Skill("swift-concurrency")` |
+| `swift-spm` | Swift Package Manager | `Skill("swift-spm")` |
+| `swift-architecture` | MVVM, Clean Architecture | `Skill("swift-architecture")` |
+| `swift-testing` | XCTest, TDD patterns | `Skill("swift-testing")` |
+| `swift-macos` | macOS development | `Skill("swift-macos")` |
 
 ---
 
@@ -152,10 +163,10 @@ swift-assistant:03-devops-infrastructure-specialist
 
 | Command | Description |
 |---------|-------------|
-| `/learning-path` | Learning Path |
-| `/skill-assessment` | Skill Assessment |
-| `/career-guidance` | Career Guidance |
-| `/explore-roadmap` | Explore Roadmap |
+| `/swift-check` | Analyze project for issues and best practices |
+| `/swift-new` | Create new project or component |
+| `/swift-build` | Build for iOS/macOS with various options |
+| `/swift-test` | Run tests with coverage reporting |
 
 ---
 
@@ -177,12 +188,36 @@ swift-assistant:03-devops-infrastructure-specialist
 ```
 custom-plugin-swift/
 ├── 📁 .claude-plugin/
-│   ├── plugin.json
-│   └── marketplace.json
-├── 📁 agents/              # 7 agents
-├── 📁 skills/              # 7 skills (Golden Format)
-├── 📁 commands/            # 4 commands
+│   └── plugin.json
+├── 📁 agents/                    # 8 Swift agents
+│   ├── 01-swift-fundamentals.md
+│   ├── 02-swift-ios.md
+│   ├── 03-swift-swiftui.md
+│   ├── 04-swift-data.md
+│   ├── 05-swift-macos.md
+│   ├── 06-swift-testing.md
+│   ├── 07-swift-performance.md
+│   └── 08-swift-advanced.md
+├── 📁 skills/                    # 12 Golden Format skills
+│   ├── swift-fundamentals/
+│   ├── swift-ios-basics/
+│   ├── swift-swiftui/
+│   ├── swift-uikit/
+│   ├── swift-networking/
+│   ├── swift-core-data/
+│   ├── swift-combine/
+│   ├── swift-concurrency/
+│   ├── swift-spm/
+│   ├── swift-architecture/
+│   ├── swift-testing/
+│   └── swift-macos/
+├── 📁 commands/                  # 4 commands
+│   ├── swift-check.md
+│   ├── swift-new.md
+│   ├── swift-build.md
+│   └── swift-test.md
 ├── 📁 hooks/
+│   └── hooks.json
 ├── 📄 README.md
 ├── 📄 CHANGELOG.md
 └── 📄 LICENSE
@@ -192,16 +227,27 @@ custom-plugin-swift/
 
 ---
 
+## 📱 Platform Support
+
+| Platform | Minimum Version |
+|----------|-----------------|
+| iOS | 15.0+ |
+| macOS | 12.0+ |
+| watchOS | 8.0+ |
+| tvOS | 15.0+ |
+
+---
+
 ## 📅 Metadata
 
 | Field | Value |
 |-------|-------|
-| **Version** | 1.0.0 |
+| **Version** | 2.0.0 |
 | **Last Updated** | 2025-12-29 |
 | **Status** | Production Ready |
 | **SASMP** | v1.3.0 |
-| **Agents** | 7 |
-| **Skills** | 7 |
+| **Agents** | 8 |
+| **Skills** | 12 |
 | **Commands** | 4 |
 
 ---

@@ -1,0 +1,11 @@
+# macOS App Configuration
+deployment_target: "12.0"
+sandbox: true
+
+capabilities:
+  - files_user_selected_read_only
+  - network_client
+  
+menu_bar:
+  show_in_dock: true
+  status_bar_item: false

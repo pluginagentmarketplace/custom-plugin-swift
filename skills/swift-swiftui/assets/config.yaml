@@ -1,0 +1,13 @@
+# SwiftUI Configuration
+minimum_ios: "15.0"
+minimum_macos: "12.0"
+
+navigation:
+  style: NavigationStack  # iOS 16+
+  
+state_management:
+  - @State
+  - @Binding
+  - @ObservableObject
+  - @EnvironmentObject
+  - @Observable  # iOS 17+

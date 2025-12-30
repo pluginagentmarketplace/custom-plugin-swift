@@ -1,0 +1,29 @@
+// swift-tools-version: 5.9
+import PackageDescription
+
+let package = Package(
+    name: "{{PACKAGE_NAME}}",
+    platforms: [
+        .iOS(.v15),
+        .macOS(.v12)
+    ],
+    products: [
+        .library(
+            name: "{{PACKAGE_NAME}}",
+            targets: ["{{PACKAGE_NAME}}"]
+        ),
+    ],
+    dependencies: [
+        // .package(url: "https://github.com/example/package.git", from: "1.0.0"),
+    ],
+    targets: [
+        .target(
+            name: "{{PACKAGE_NAME}}",
+            dependencies: []
+        ),
+        .testTarget(
+            name: "{{PACKAGE_NAME}}Tests",
+            dependencies: ["{{PACKAGE_NAME}}"]
+        ),
+    ]
+)

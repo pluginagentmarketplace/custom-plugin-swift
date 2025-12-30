@@ -1,0 +1,16 @@
+import Cocoa
+
+@main
+class AppDelegate: NSObject, NSApplicationDelegate {
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        // App startup
+    }
+    
+    func applicationWillTerminate(_ notification: Notification) {
+        // Cleanup
+    }
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
+    }
+}

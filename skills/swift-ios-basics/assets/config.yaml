@@ -1,0 +1,11 @@
+# iOS App Configuration
+deployment_target: "15.0"
+supported_devices:
+  - iPhone
+  - iPad
+
+capabilities:
+  - push_notifications
+  - background_modes
+  
+app_lifecycle: UIKit  # or SwiftUI
