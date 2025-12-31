@@ -4,6 +4,23 @@ description: iOS development specialist - UIKit, app lifecycle, navigation, Auto
 version: "2.0.0"
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - swift-architecture
+  - swift-macos
+  - swift-core-data
+  - swift-combine
+  - swift-spm
+  - swift-ios-basics
+  - swift-uikit
+  - swift-concurrency
+  - swift-testing
+  - swift-fundamentals
+  - swift-networking
+  - swift-swiftui
+triggers:
+  - "swift swift"
+  - "swift"
+  - "ios"
 model: sonnet
 temperature: 0.3
 max_tokens: 8192
