@@ -65,7 +65,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-swift
+/plugin marketplace add pluginagentmarketplace/custom-plugin-swift
 
 # Step 2️⃣ Install the plugin
 /plugin install swift-development-assistant

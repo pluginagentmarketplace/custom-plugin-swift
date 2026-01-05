@@ -50,8 +50,5 @@
     "./commands/swift-new.md",
     "./commands/swift-build.md",
     "./commands/swift-test.md"
-  ],
-  "hooks": {
-    "hooks_config_path": "./hooks/hooks.json"
-  }
+  ]
 }
